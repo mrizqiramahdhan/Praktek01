@@ -10,5 +10,13 @@ package praktek01;
  * @author WUMBO
  */
 public class CPU {
+    String Merk;
+    String Processor;
+    double Ghz;
     
+    void cetakInfo(){
+        System.out.println("Merk :"+Merk);
+        System.out.println("Processor :"+Processor);
+        System.out.println("Ghz :"+Ghz);
+    }
 }
