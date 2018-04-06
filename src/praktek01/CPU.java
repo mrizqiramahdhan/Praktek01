@@ -12,11 +12,15 @@ package praktek01;
 public class CPU {
     String Merk;
     String Processor;
-    double Ghz;
+    String RAM;
+    String PSU;
+    String HDD;
     
     void cetakInfo(){
         System.out.println("Merk :"+Merk);
         System.out.println("Processor :"+Processor);
-        System.out.println("Ghz :"+Ghz);
+        System.out.println("RAM :"+RAM);
+        System.out.println("RAM :"+PSU);
+        System.out.println("RAM :"+HDD);
     }
 }

@@ -12,5 +12,11 @@ package praktek01;
 public class CPUaction {
     public static void main(String[] args){
         CPU ASUS = new CPU();
+        
+        ASUS.Merk="ASUS Perfection";
+        ASUS.Processor="Intel Core-i3";
+        ASUS.RAM="2x2GB DDR3";
+        ASUS.PSU="400Watt";
+        ASUS.HDD="500GB";
     }
 }
